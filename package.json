@@ -18,6 +18,10 @@
     ]
   },
   "categories": [ "Other" ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CaiSong123/One-Step"
+  },
   "scripts": {
     "format": "prettier . --write"
   },
