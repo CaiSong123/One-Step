@@ -8,7 +8,6 @@ cd build
 
 # 配置Ninja
 if [ ! -f "build.ninja" ]; then
-    echo "配置ninja"
     cmake -DCMAKE_BUILD_TYPE=Debug \
           -DCMAKE_EXPORT_COMPILE_COMMANDS=TRUE \
           -S .. \
